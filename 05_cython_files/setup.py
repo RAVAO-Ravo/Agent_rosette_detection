@@ -1,5 +1,5 @@
 #!/bin/python3
-#-*- coding : utf-8 -*-
+#-*- coding:utf-8 -*-
 #cython: language_level=3
 
 from distutils.core import Extension, setup
