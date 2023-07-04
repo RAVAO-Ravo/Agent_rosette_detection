@@ -1,0 +1,27 @@
+Hardware :
+
+	PC :
+
+		manufacturer : Acer
+		Model : Aspire A515-51G
+		Processor : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 2712 MHz, 2 Core(s), 4 logic(s) processor(s)
+		RAM : 36 Go
+		GPU 1 : Intel(R) HD Graphics 620
+		GPU 2 : NVIDIA GeForce 940MX
+		Hardisk 1 (type, model, capacity) : (HDD, WDC WD10SPZX-21Z10T0, 931.51 Go)
+		Hardisk 2 (type, model, capacity) : (SSD, Samsung SSD 980 1TB, 931.51 Go)
+ 
+	Info System : 
+
+		OS : Microsoft Windows 10 Famille
+		Version : 10.0.19045 Build 19045
+		Type : x64 Bits
+
+	Terminal :
+
+		Windows 10 Linux Subsystem (version : 2004.2022.8.0) :
+
+			KERNEL : Linux 4.4.0-19041-Microsoft
+			BUILD : 19045
+			BRANCH : vb_release
+			RELEASE : Ubuntu 20.04.6 LTS
