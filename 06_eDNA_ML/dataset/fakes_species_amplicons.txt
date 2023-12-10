@@ -1,1 +1,0 @@
-Le dataset est trop volumineux pour le github. Mais il peut être créer, lancer dans un terminal le script "make_fakeDataset.py", en ayant le dossier "species" (de ce répertoire) dans le même répertoire que le script. 
