@@ -1,1 +1,0 @@
-Il faut récupérer les fastas sur NCBI (car trop volumineux pour le github), et les placer dans des dossiers dédiés ayant la même dénomination que le fichier contenant les numéros d'accession.
