@@ -1,6 +1,6 @@
 # Agent_rosette_detection
 
-Le script `Pipeline.py` a été développé pour la détection d'espèces : Sphaerothecum destruens (Agent Rosette) ; Cyprinus carpio ; et Pseudorasbora parva. Le pipeline utilise le classifieur "clf_RA", ainsi que le module "reads", ainsi que les outils "fastqc", "samtools" et "minimap2". Voici des informations sur la configuration et l'utilisation du script :
+Le script `pipeline.py` a été développé pour la détection d'espèces : Sphaerothecum destruens (Agent Rosette) ; Cyprinus carpio ; et Pseudorasbora parva. Le pipeline utilise le classifieur "clf_RA", ainsi que le module "reads", ainsi que les outils "fastqc", "samtools" et "minimap2". Voici des informations sur la configuration et l'utilisation du script :
 
 ## Téléchargement du dépôt
 
@@ -78,12 +78,12 @@ Le script prend en charge deux pipelines : le pipeline de mapping et le pipeline
 Pour l'utilisation du classifieur :
 
 ```bash
-python3 Pipeline.py -c -r /chemin/vers/run -o resultats_classif -p 0.95
+python3 pipeline.py -c -r /chemin/vers/run -o resultats_classif -p 0.95
 ```
 Pour l'utilisation du mapping :
 
 ```bash
-python3 Pipeline.py -r /chemin/vers/run -s /chemin/vers/species -o resultats_mapping -k 28 -q 60 -t 64 -a cherif
+python3 pipeline.py -r /chemin/vers/run -s /chemin/vers/species -o resultats_mapping -k 28 -q 60 -t 64 -a cherif
 ```
 
 ## Licence
